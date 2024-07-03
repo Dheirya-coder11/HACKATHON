@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    color: aliceblue;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("mumbai.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.547);
+    width: 100%;
+    gap: 60px;
+    z-index: 100;
+    position: fixed;
+    justify-content: start;
+}
+
+#nav-home {
+    padding-left: 30px;
+}
+
+.nav span a {
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: white;
+}
+
+.nav span a:hover {
+    color: rgb(89, 88, 88);
+}
+
+.herosection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.herosection h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.herosection p {
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#description {
+    font-size: 25px;
+    text-align: justify;
+    color: aliceblue;
+    padding: 100px 30px 0px 30px;
+    margin-bottom: 30px;
+}
+
+#home-hs-button {
+    font-size: 30px;
+    background: transparent;
+    margin-top: 100px;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid rgb(226, 225, 225);
+}
+
+#home-hs-button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(6, 6, 6);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: black;
+}
+
+footer span {
+    font-size: 20px;
+    color: aliceblue;
+}
